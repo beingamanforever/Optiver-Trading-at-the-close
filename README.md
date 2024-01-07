@@ -53,6 +53,7 @@ Here are some of the resources I personaly used to get myself familiar with the 
      ![13](https://github.com/beingamanforever/Optiver-Trading-at-the-close/assets/121532863/77c3f25d-1a35-41a2-ad55-60710aa71090)
 
 Refer to the official documentation of Nasdaq to understand the terminologies associated with close
+
 - Like what is close?
 - Why doesn't trading happen 24x7 ?
 - Why market makers bring liquidity to the table?
@@ -64,4 +65,3 @@ For understanding how stock market works do refer the following resources:
 - https://www.youtube.com/watch?v=ZCFkWDdmXG8
 - https://youtu.be/Vb8JA3Y7aoE?si=_0ZtPnfJvIrKMohp
 - https://youtu.be/WZlApjlzrfY?si=-wt21aI0o8NttKsA
-- 
