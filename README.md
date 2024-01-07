@@ -65,3 +65,7 @@ For understanding how stock market works do refer the following resources:
 - https://www.youtube.com/watch?v=ZCFkWDdmXG8
 - https://youtu.be/Vb8JA3Y7aoE?si=_0ZtPnfJvIrKMohp
 - https://youtu.be/WZlApjlzrfY?si=-wt21aI0o8NttKsA
+
+# Papers for Reference 
+- [Stock Market Prediction via Deep Learning Techniques](https://arxiv.org/abs/2212.12717)
+- [Stock Market Analysis: A Review and Taxonomy of Prediction Techniques](https://www.mdpi.com/2227-7072/7/2/26)
