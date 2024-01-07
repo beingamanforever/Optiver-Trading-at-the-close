@@ -1,4 +1,4 @@
-
+Aman Behera --- Submission for VLG-Open-Project-2023/24 ---
 # Optiver-Trading-at-the-close
 
 ![image](https://github.com/beingamanforever/Optiver-Trading-at-the-close/assets/121532863/dd735ea6-12be-43eb-aed0-3b10d6863e5d)
@@ -58,3 +58,10 @@ Refer to the official documentation of Nasdaq to understand the terminologies as
 - Why market makers bring liquidity to the table?
 - What is buy sell disparity?
 - And other questionable terminologies
+
+For understanding how stock market works do refer the following resources:
+- https://youtu.be/p7HKvqRI_Bo?si=o_11VZY7VvDQ0_F2
+- https://www.youtube.com/watch?v=ZCFkWDdmXG8
+- https://youtu.be/Vb8JA3Y7aoE?si=_0ZtPnfJvIrKMohp
+- https://youtu.be/WZlApjlzrfY?si=-wt21aI0o8NttKsA
+- 
