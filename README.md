@@ -14,8 +14,10 @@ Understanding the terminologies mentioned in the dataset's description became qu
 
 ![12](https://github.com/beingamanforever/Optiver-Trading-at-the-close/assets/121532863/7d56a87f-b292-4b1d-832c-03ed8a1999f9)
 
+Special thanks to this [discussion](https://www.kaggle.com/competitions/optiver-trading-at-the-close/discussion/444516) for providing a very simple explanation for the terminologies sued in contest.
 # Explanation of some essential terminologies
 Many different terminologies like order book, auction book, market maker (like optiver, jane street), wap required explanations. Although theoritical explanations can be accessed from google or any other source, the following images serve to give a working insights into how trading at close happens. Lastly since I had used quartiles for outlier detection an image explaning the same has also been added.
+
 ![1](https://github.com/beingamanforever/Optiver-Trading-at-the-close/assets/121532863/2d479b6b-70eb-4962-8853-1147fde80fed)
 
 ![2](https://github.com/beingamanforever/Optiver-Trading-at-the-close/assets/121532863/0d3a85b7-d322-446a-a0e7-bc26dbf3ca5b)
