@@ -1,9 +1,17 @@
 Aman Behera --- Submission for VLG-Open-Project-2023/24 ---
 # Optiver-Trading-at-the-close
 
+I implemented a simple LightLGM model capable of predicting the closing price movements for hundreds of NASDAQ listed stocks using data from the order book and the closing auction of the stock.for Optiver's Trading at the close competition.
+
 ![image](https://github.com/beingamanforever/Optiver-Trading-at-the-close/assets/121532863/dd735ea6-12be-43eb-aed0-3b10d6863e5d)
 
-Implemented a simple LightLGM model capable of predicting the closing price movements for hundreds of NASDAQ listed stocks using data from the order book and the closing auction of the stock.for Optiver's Trading at the close competition.
+In financial markets, an auction is a mechanism for determining the price of a particular asset by allowing multiple buyers and sellers to interact directly in a controlled, regulated environment. There are many different kinds of auction, but for this competition we are particularly interested in the concept of a closing auction.
+
+In a closing auction, orders are collected over a pre-determined timeframe and then matched at a single price determined by the buy & sell demand expressed by auction participants. For Nasdaq Closing auctions, the exchange begins accepting orders at the start of the trading day and begins publishing the state of the auction book at 3:50pm ET for 10 minutes before the market closes at 4pm ET, at which point the orders are matched instantly at a single price.
+
+![image](https://github.com/beingamanforever/Optiver-Trading-at-the-close/assets/121532863/01eb6fb2-5264-4708-9aac-8a4153830e6e)
+
+The closing price is determined as: The price at which the maximum number of shares can be matched. In the event the auction would have equal number of matched lots at different levels, Nasdaq uses a proprietary algorithm which takes into account the last traded price, the price-time priority of orders, and the available liquidity at different price levels. It is quite rare that the price at which the maximum shares can be matched is not unique.
 
 # Dataset description
 Understanding the terminologies mentioned in the dataset's description became quite essential for attempting the problem statement. This dataset contains historic data for the daily ten minute closing auction on the NASDAQ stock exchange. The challenge is to predict the future price movements of stocks relative to the price future price movement of a synthetic index composed of NASDAQ-listed stocks.
@@ -16,7 +24,7 @@ Understanding the terminologies mentioned in the dataset's description became qu
 
 Special thanks to this [discussion](https://www.kaggle.com/competitions/optiver-trading-at-the-close/discussion/444516) for providing a very simple explanation for the terminologies sued in contest.
 # Explanation of some essential terminologies
-Many different terminologies like order book, auction book, market maker (like optiver, jane street), wap required explanations. Although theoritical explanations can be accessed from google or any other source, the following images serve to give a working insights into how trading at close happens. Lastly since I had used quartiles for outlier detection an image explaning the same has also been added.
+Many different terminologies like order book, auction book, market maker (like optiver, jane street), wap required explanations. Although theoritical explanations can be accessed from google or any other source, the following images serve to give a working insights into how trading at close happens. Lastly, since I had used quartiles for outlier detection an image explaning the same has also been added.
 
 ![1](https://github.com/beingamanforever/Optiver-Trading-at-the-close/assets/121532863/2d479b6b-70eb-4962-8853-1147fde80fed)
 
@@ -36,7 +44,11 @@ Many different terminologies like order book, auction book, market maker (like o
 
 ![9](https://github.com/beingamanforever/Optiver-Trading-at-the-close/assets/121532863/f3835726-8d1c-4bee-8e36-4f3ccab1e35d)
 
-# Essential Resources
+# Evaluation metrics
+
+![15](https://github.com/beingamanforever/Optiver-Trading-at-the-close/assets/121532863/f4a395fb-fead-4cdd-ab6b-94728a997bb2)
+
+# Essential Resources and References used
 Here are some of the resources I personaly used to get myself familiar with the terminologies and to understand the workings of trading at the close.
 
 1. Market Making
@@ -63,6 +75,7 @@ Refer to the official documentation of Nasdaq to understand the terminologies as
 - And other questionable terminologies
 
 For understanding how stock market works do refer the following resources:
+
 - https://youtu.be/p7HKvqRI_Bo?si=o_11VZY7VvDQ0_F2
 - https://www.youtube.com/watch?v=ZCFkWDdmXG8
 - https://youtu.be/Vb8JA3Y7aoE?si=_0ZtPnfJvIrKMohp
